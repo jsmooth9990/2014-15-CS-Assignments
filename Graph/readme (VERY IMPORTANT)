@@ -1,0 +1,33 @@
+Depending on what you want, not all the files are needed. But for safety sake, just put all the files in the same directory.
+The me in junior year was very messy with his Graph assignments, so read this carefully.
+
+The graphs are created using a 2D array, and are assumed to have max. 26 vertices. Each successive vertice is a new letter of the alphabet.
+In the 2D representation, the letters should be with A at the leftmost and uppermost, and the rest of the letters following.
+
+Breadth/Depth First Instructions (undirected graphs):
+The console input should be number of vertices, the 2D array (no spaces), the starting node.
+Ex:
+4
+0101
+1000
+0001
+1010
+B
+
+For Breadth and Depth first search, you'll need the Stack, Queue, Node, Graph, and the respective runner class (Breadth.java for breadth, Runner.java for depth).
+Run the runner class to begin the search, and the output should show the path.
+______________________________________________________________________________________________
+Djikstra's Algorithm Instructions: (this works w/ directed graphs)
+You'll need the classes for the priority node/queue, the Shortpath runner, and the Weighted implementation. 
+Console input is the similar to before. Use spaces in the 2D array, and the last line includes your start, then your target.
+
+Ex for 4 vertices and findng the path from B to A:
+4
+12 0 9 0
+0 0 7 2
+0 3 11 5
+0 0 0 6
+BA
+
+
+Note: Though there are 2 graph implementations, both Weighted and Graph are essentially the same, with different searches.
