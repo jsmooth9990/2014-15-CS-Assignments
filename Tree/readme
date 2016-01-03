@@ -1,0 +1,22 @@
+This implementation of a binary tree can be demonstrated through a game in the style of "20 Questions". The game begins with the Tree.game() function.
+
+To use, put all files in the same directory and run "Runner.java"
+
+The game begins with one final guess, is it a seamonkey. After each failed final guess, the user is prompted to give the true answer and one unique property.
+After each round, a new game starts with the new info added to the tree.
+
+Example text from console, program output in quotes:
+"sea monkey?"
+no
+"what is your thing"
+horse
+"what is one unique property"
+lives on land
+"thanks for the info, new game startin"
+"lives on land?"
+yes
+"horse?"
+yes
+"I win the game, would you like to restart?"
+nah
+"byebye"
